@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lead form</title>
+    <link rel="stylesheet" href="eSchool.css">
+</head>
+<body>
+    <div class="contact-us">
+        <!--  
+        <form action="#">
+          <label for="customerName">NAME <em>&#x2a;</em></label><input id="customerName" name="customerName" required="" type="text" /><label for="customerEmail">EMAIL <em>&#x2a;</em></label><input id="customerEmail" name="customerEmail" required="" type="email" /><label for="customerPhone">PHONE</label><input id="customerPhone" name="customerPhone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" type="tel" /><label for="orderNumber">ORDER NUMBER</label><input id="orderNumber" name="orderNumber" type="text" /><label for="customerNote">YOUR MESSAGE <em>&#x2a;</em></label><textarea id="customerNote" name="customerNote" required="" rows="4"></textarea>
+          <h3>
+            Please provide all the information about your issue you can.
+          </h3>
+          <label for="spamProtection">SPAM PROTECTION <em>&#x2a; </em><span>&nbsp;&nbsp;&nbsp;&nbsp;What day comes before July 11th?</span></label><input id="spamProtection" name="spamProtection" type="text" /><button id="customerOrder">SUBMIT</button>
+        </form>
+    -->
+
+    <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+
+        <!--  ----------------------------------------------------------------------  -->
+        <!--  NOTE: Please add the following <FORM> element to your page.             -->
+        <!--  ----------------------------------------------------------------------  -->
+        
+        <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+        
+        <input type=hidden name="oid" value="00D2w000004N4OO">
+        <input type=hidden name="retURL" value="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.sec.gov%2FArchives%2Fedgar%2Fdata%2F1108524%2F000110852419000067%2Finvestorday2019.htm&psig=AOvVaw1vrxd820ELmhQzbN5w9E1T&ust=1637596771134000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCIjPtsXpqfQCFQAAAAAdA">
+        
+        <!--  ----------------------------------------------------------------------  -->
+        <!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
+        <!--  these lines if you wish to test in debug mode.                          -->
+        <!--  <input type="hidden" name="debug" value=1>                              -->
+        <!--  <input type="hidden" name="debugEmail"                                  -->
+        <!--  value="saranshk1191@gmail.com">                                         -->
+        <!--  ----------------------------------------------------------------------  -->
+        
+        <label for="first_name">First Name</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" /><br>
+        
+        <label for="last_name">Last Name</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
+        
+        <label for="phone">Phone</label><input  id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
+        
+        <label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
+        
+        <label for="city">City</label><input  id="city" maxlength="40" name="city" size="20" type="text" /><br>
+        
+        <label for="state">State/Province</label><input  id="state" maxlength="20" name="state" size="20" type="text" /><br>
+        
+        <input type="submit" name="submit">
+        
+        </form>
+      </div>
+</body>
+</html>
